@@ -1,0 +1,54 @@
+.navbar{
+    background-color: blueviolet;
+}
+.card{
+    padding: 20px;
+    width: 18rem;
+    margin: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    height: 1800px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    cursor: pointer;
+    gap: 4px;
+    overflow-x: auto;
+}
+.bucketButton{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    display: block;
+    
+    width: 200px;
+}
+.plusImage{
+    width: 30px;
+    /* max-width: 100%; */
+}
+.customs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-left: 40px;
+}
